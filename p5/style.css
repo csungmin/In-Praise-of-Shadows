@@ -23,6 +23,16 @@ text-align: left;
 color:#000000
 }
 
+.text2{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: right;
+    color:#000000
+}
+
 /* cursor effect */
 #circle{
     height:20px;
@@ -48,7 +58,7 @@ body:hover > #circle {
     opacity: 1;
 }
 
-/* story */
+
 .story-wrapper{
     height: auto;
     width: 80vh;

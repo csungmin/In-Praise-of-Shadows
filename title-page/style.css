@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-position:top center;
 }
+
 .title{
 font-family: "Inter", sans-serif;
 font-size: 30px;
@@ -17,4 +18,29 @@ font-weight: 100;
 font-style: normal;
 text-align: center;
 color:#707c86
+}
+
+/* cursor effect */
+#circle{
+    height:70px;
+    width:70px;
+    background-color:#e2d8bc97;
+    border-radius:50%;
+    box-shadow:
+    0 0 30px 20px #e2d8bcb0,
+    0 0 90px 30px #d8abd8,
+    0 0 90px 30px #9acfcf;
+
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:100000;
+
+    pointer-events:none;
+    opacity:0;
+    transition: opacity 500ms ease;
+}
+
+body:hover > #circle {
+    opacity: 1;
 }

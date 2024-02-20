@@ -1,11 +1,11 @@
 body {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: right;
     height: 90vh;
     margin: 10px;
-    padding-left :150px;
-    padding-right:10px;
+    padding-left :10px;
+    padding-right:150px;
 
     background-image: url(background.png);
     background-size: 2000px;
@@ -19,7 +19,7 @@ font-size: 18px;
 font-optical-sizing: auto;
 font-weight: 100;
 font-style: normal;
-text-align: left;
+text-align: right;
 color:#000000
 }
 
@@ -48,7 +48,7 @@ body:hover > #circle {
     opacity: 1;
 }
 
-/* story */
+
 .story-wrapper{
     height: auto;
     width: 80vh;
